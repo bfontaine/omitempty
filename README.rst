@@ -21,6 +21,9 @@ omitempty
 comes from Go’s ``json`` package which supports an ``omitempty`` tag not to
 marshal empty struct fields.
 
+The module exposes only one function that takes a dictionary and remove all
+keys with falsy values.
+
 Install
 -------
 
