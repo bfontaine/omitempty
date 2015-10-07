@@ -13,6 +13,9 @@ class EmptyObj(object):
     def __nonzero__(self):
         return False
 
+    def __bool__(self):
+        return False
+
 class ZeroLenObj(object):
     def __len__(self):
         return 0
