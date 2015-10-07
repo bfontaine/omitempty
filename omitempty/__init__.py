@@ -25,7 +25,7 @@ class mod_omitempty(object):
             if not v:  # empty
                 continue
 
-            if isinstance(v, dict) and not self.__mark in v:
+            if isinstance(v, dict) and self.__mark not in v:
                 d2[k] = self._omitempty_rec(v)
             else:
                 d2[k] = v
