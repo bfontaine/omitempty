@@ -44,3 +44,7 @@ class TestOmitempty(unittest.TestCase):
 
     def test_simple(self):
         self.assertEquals({"a": 1, "c": 3}, omitempty({"a": 1, "b": 0, "c": 3}))
+
+    def test_deep(self):
+        d = {"a": {"b": {"c": {"d": 1, "e": 0}, "f": False}, "g": []}, "h":9}
+        self.assertEquals({"a": {"b": {"c": {"d": 1}}}, "h":9}, omitempty(d))
