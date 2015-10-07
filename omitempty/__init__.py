@@ -5,6 +5,7 @@ from uuid import uuid4
 
 __version__ = "0.1.0"
 
+
 class mod_omitempty(object):
     def __init__(self):
         self.__version__ = __version__
