@@ -14,9 +14,6 @@ omitempty
    :target: https://pypi.python.org/pypi/omitempty
    :alt: Pypi package
 
-.. image:: https://img.shields.io/pypi/dm/omitempty.png
-   :target: https://pypi.python.org/pypi/omitempty
-
 ``omitempty`` is a Python module to remove empty keys in a dictionary. Its name
 comes from Go’s ``json`` package which supports an ``omitempty`` tag not to
 marshal empty struct fields.
