@@ -2,7 +2,7 @@
 omitempty
 =========
 
-.. image:: https://img.shields.io/travis/bfontaine/omitempty.png
+.. image:: https://travis-ci.org/bfontaine/omitempty.svg?branch=master
    :target: https://travis-ci.org/bfontaine/omitempty
    :alt: Build status
 
