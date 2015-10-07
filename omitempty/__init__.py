@@ -3,7 +3,7 @@
 import sys
 from uuid import uuid4
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 
 
 class mod_omitempty(object):
