@@ -8,6 +8,7 @@ __version__ = "0.1.1"
 
 class mod_omitempty(object):
     def __init__(self):
+        self.__name__ = __name__
         self.__version__ = __version__
         self.__mark = "___%s" % uuid4()
 
